@@ -39,6 +39,8 @@ gem 'treetop-dcf', '~> 0.2.1'
 gem 'httparty', '~> 0.13.7'
 gem 'mysql2', '~> 0.5.2'
 gem 'bootstrap', '~> 4.0'
+gem 'sidekiq'
+gem 'sidekiq-cron'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

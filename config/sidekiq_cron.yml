@@ -1,0 +1,3 @@
+AddPackageWorker:
+  class: AnonymizePersonalDataWorker
+  cron: '0 12 * * * Europe/Berlin'
