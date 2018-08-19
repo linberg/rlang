@@ -17,7 +17,6 @@ class Package < ApplicationRecord
       @package = Package.new
       @package.update_attributes(name: res["Package"], version: res["Version"])
       update_url(@package)
-      @package.save!
     end
   end
 
