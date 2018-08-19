@@ -19,10 +19,10 @@
       </tr>
     </thead>
     <tbody>
-    <% @packages.each do |package| %>
+    <% @packages.each do |pkg| %>
       <tr>
-        <td><%= package.name %></td>
-        <td><%= package.version %></td>
+        <td><%= pkg.name %></td>
+        <td><%= pkg.version %></td>
       </tr>
     <% end %>
   </tbody>
